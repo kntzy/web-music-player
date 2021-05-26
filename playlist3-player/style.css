@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(42deg, #000000, #545454);
+}
+iframe{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 97.6vh;
+    width: 100%;
+}
