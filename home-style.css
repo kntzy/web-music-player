@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,700&display=swap');
+
+body{
+    background-color: #161616;
+    font-family: 'Rubik', sans-serif;
+    color: white;      
+}
+ 
+img{
+    width: 100%; 
+    min-height: 250px;
+}
+
+.main{
+    padding: 40px 0;
+}
+
+.col-md-3{
+      margin-bottom: 40px;
+}
+            
+.album-poster{  
+    position: relative; 
+    display: block;
+    border-radius: 7px; 
+    overflow: hidden;   
+    box-shadow: 0 0px 20px #000000a1; 
+    transition: all ease 0.3s;
+}
+          
+.album-poster:hover{
+    box-shadow: 0 0px 14px #000000a1; 
+    transform: scale(0.98) translateY(5px);
+}
+         
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 34px; 
+    margin-bottom: 34px; 
+    padding-bottom: 15px;
+    text-shadow: 0 0px 14px #000000a1;
+    transition: all 0.3s;
+}
+
+h1:hover{
+    text-shadow: 0 0px 14px #000000a1;
+    font-family: 'Rubik', sans-serif;
+    color: rebeccapurple;
+    cursor: pointer;
+}
+         
+p{
+    font-size: 13px;
+    text-shadow: 0 0px 14px #000000a1;
+    transition: all 0.3s;
+    color: rebeccapurple;
+    font-family: 'Rubik', sans-serif;
+}
+
+p:hover{
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    text-shadow: 0 0px 14px #000000a1;
+    color: rebeccapurple;
+}
+         
+h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;  
+    margin-top: 15px; 
+    font-weight: 700;
+    text-shadow: 0 0px 14px #000000a1;
+    transition: all 0.3s;
+}
+
+h4:hover{
+    color: rebeccapurple;
+    cursor: pointer;
+    text-shadow: 0 0px 14px #000000a1;
+
+}
